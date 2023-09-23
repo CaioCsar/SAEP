@@ -1,0 +1,188 @@
+body{
+    
+    box-sizing: border-box;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: -20;
+}   
+
+.totalArea{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    z-index: -3;
+}
+
+.area1{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 25px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area2{
+    background-color: white;
+    width: 90px;
+    height: 70px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 305px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area3{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 115px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area4{
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 215px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area5{
+    background-color: white;
+    width: 370px;
+    height: 410px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 325px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area6{
+    background-color: white;
+    width: 120px;
+    height: 60px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 825px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area7{
+    background-color: white;
+    width: 140px;
+    height: 65px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 384px;
+    margin-left: 355px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area8{
+    background-color: white;
+    width: 130px;
+    height: 70px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 295px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area9{
+    background-color: white;
+    width: 140px;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 420px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area10{
+    background-color: white;
+    width: 350px;
+    height: 730px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 595px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.area11{
+    background-color: white;
+    width: 70px;
+    height: 100px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 400px;
+    border-style: solid ; 
+    border-width: 1px;
+}
+
+.hover:hover{
+    border-width: 2px;
+}
