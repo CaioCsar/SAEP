@@ -2,16 +2,16 @@ const Sequelize = require("sequelize");
 
 const db = require("./db");
 
-const cliente = db.define("clientes",{
-   id:{
-    type: Sequelize.INTEGER,
-    autoIncrement: true,
-    allowNull: false,
-    primaryKey: true
+const cliente = db.define("clientes", {
+   id: {
+      type: Sequelize.INTEGER,
+      autoIncrement: true,
+      allowNull: false,
+      primaryKey: true
    },
-   nome:{
-    type: Sequelize.STRING,
-    allowNull: false,
+   nome: {
+      type: Sequelize.STRING,
+      allowNull: false,
    }
 });
 

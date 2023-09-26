@@ -43,8 +43,6 @@ app.listen(8080, () => {
 function area(){
     let areaAtual = document.querySelector(".area");
     window.location.href = "./Visuals/venda.html";
-
-    
 }
 
 //function para dar cor na interface a depender da base de dados
